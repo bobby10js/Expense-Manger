@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/expenses"
+            android:icon="@drawable/main_icon"
+            android:title="Expenses"
+            />
+        <item
+            android:id="@+id/statistics"
+            android:icon="@drawable/stats_icon"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/reminders"
+            android:icon="@drawable/reminder"
+            android:title="Reminders" />
+
+    </group>
+
+    <item >
+        <menu>
+
+            <item
+                android:id="@+id/export"
+                android:icon="@drawable/export"
+                android:title="Export"
+                />
+            <item
+                android:id="@+id/deleteDB"
+                android:icon="@drawable/delete"
+                android:title="Delete" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/user"
+                android:title="About Developer" />
+        </menu>
+    </item>
+
+</menu>
